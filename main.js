@@ -8,6 +8,7 @@ const {checkPalindrome}=require("./checkPalindrome")
 const {Factorial}=require("./Factorial")
 const {numberOfVowels}=require("./numberOfVowels")
 const {nthFibonacci,fibWithLoop,fibWithCaching}=require("./nthFibonacci")
+const {runLengthEncode } = require("./runLengthEncode")
 //console.log("get sum",getSum([5,6,9,8,7]));
 //console.log("get max",getMax([4,9,10,20]));
 //console.log("Reverse String",reverseString("ahmed"));
@@ -19,7 +20,8 @@ const {nthFibonacci,fibWithLoop,fibWithCaching}=require("./nthFibonacci")
 //console.log(numberOfVowels ('Iti'));
 //console.log(nthFibonacci(4));
 //console.log(fibWithLoop(6));
-console.log(fibWithCaching(6));
+//console.log(fibWithCaching(6));
+console.log(runLengthEncode("aaabbbccc"));
 
 
 
